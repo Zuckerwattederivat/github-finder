@@ -6,9 +6,9 @@ const Navbar = ({ icon, title }) => {
   return (
     <nav className='navbar bg-primary'>
       <h1>
-        <NavLink to='/'>
+        <a href='/'>
           <i className={icon}></i> {title}
-        </NavLink>
+        </a>
       </h1>
       <ul>
         <li>
